@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+ }
+ body{
+   /* border: 1px solid; */
+   background-color: rgb(211, 211, 223);
+   height: 900px;
+
+}
+/* .fa-sharp fa-solid fa-circle-plus{
+  color: black;
+  background-color: blue;
+  height: 80px;
+  position: absolute;
+  top: 15%;
+  right: 10%; 
+} */
+.plus{
+  /* background-color: blue;   */
+  color: rgb(0, 0, 255);
+  font-size: 40px;
+  /* text-decoration: none; */
+  position: absolute;
+  top: 15%;
+  left: 65%;
+}
+.plus1{
+  text-decoration: none;
+  /* background-color: blue;   */
+  color: rgb(0, 0, 255);
+  
+}
+.plus2{
+  text-decoration: none;  
+  color: black;
+  /* justify-content: center; */
+}
+.plus3{
+  text-decoration: none; 
+  color: black;
+}
+
+.start{
+    border: 1px;
+    background-color: white;
+    height: 60px;
+     text-align: center;
+    /* justify-content: center; */
+    
+}
+.start1{
+  position: absolute;
+  left: 10%;
+  padding: 10px;
+}
+.start2{
+  color: rgb(0, 0, 255);
+}
+.start3{
+  text-shadow: 10px 10px 10px 12px grey;
+}
+.parent{
+     display: flex; 
+     flex-wrap: wrap; 
+    justify-content: center;
+    
+}
+.child{
+  border: 0px solid;
+  background-color: white;
+  border-radius: 2%;
+  justify-content: center;
+  box-shadow:-10px -3px 10px ;
+  box-shadow: 4px 4px 5px 4px;
+  padding: 10px;
+  height: 300px;
+  width: 300px; 
+  margin: 30px; 
+}
+.child:hover{
+    /* color: blue; */
+    background-color: rgb(172, 166, 166);
+    box-shadow: -3px -3px 10px;
+    box-shadow: 3px 3px 10px;
+}
+.child1{
+  text-decoration: line-through;
+}
+.child2{
+  text-decoration: none;
+   color: black; 
+}
+
+.divc{
+  border: 1px;
+  background-color: rgb(172, 166, 166);
+  border-radius: 10px;
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  /* justify-content: center; */
+  justify-items: center;
+  
+
+}
+.divc1{
+  border: 1px;
+  background-color: white;
+  height: 30px;
+  width: 100%;
+}
+.divc2{
+  color: white;
+  background-color: rgb(24, 21, 170);
+  /* height: 40px;
+  width: 160px; */
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+
+}
+   .divc3{ 
+  background-color: white; 
+   border: 0;
+  height: 20px;
+  width: 20px; 
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}    
+.trip1{
+ border: 2px solid blue; 
+ height: 80%;
+ width: 60%;
+ position: absolute;
+ left: 20%;
+ top: 10%;
+ display: flex;
+ flex: 1;
+ }
+ .trip2{
+  background-color: white;
+  border: 1px;
+  height: 60px;
+}
+.trip22{
+   position: absolute;
+   left: 20%;  
+} 
+.trip3{
+  border: 1px;
+  /* background-color: rgb(161, 161, 226); */
+  background-color: rgb(172, 166, 166);
+  border-radius: 10px;
+  /* text-align: center; */
+   padding: 10px; 
+  width: 40%;
+  height: 40%;
+  position: absolute; 
+  left: 30%;
+  top: 30%;
+}
+.back{
+   position: absolute;
+  top: 20%; 
+   left: 30%; 
+  font-size: 20px;
+}
+.add{
+   position: absolute;
+  top: 20%; 
+  right: 30%;
+  font-size: 20px;
+  color: rgb(0, 0, 255);
+}
+.item{
+  border: 1px;
+  /* background-color: rgb(161, 161, 226); */
+  background-color: rgb(172, 166, 166);
+  border-radius: 10px;
+  width: 30%;
+  height: 40%;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+}
+.item1{
+  border: 1px;
+  background-color: white;
+  height: 30px;
+  width: 100%; 
+  /* padding: 20px; */
+}
+.item2{
+  color: white;
+  background-color:  rgb(0, 0, 255);
+  height: 40px;
+  width: 140px;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+.item3{
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+}
+.input{
+  border: 1px solid white;
+  padding: 2px;
+  width: 98%;
+  height: 22px;
+}
+.blur{
+  filter: blur(2px);
+  height: 70%;
+  width: 100%;
+}
+.b{
+  width: 100%;
+}
+
+/* using of mobile  */
+
+@media screen and (max-width: 500px) and (min-width: 200px){
+  .divc{
+    width: 290px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+  }
+  .plus{
+    justify-content: center;
+    position: absolute;
+  top: 10%;
+  left: 45%;
+  }
+  .plus2{
+    display: none;
+  }
+  .trip1 {
+    height: 80%;
+    width: 90%;
+    position: absolute;
+    left: 3%;
+}
+  .trip3{
+  width: 60%;
+  height: 40%;
+  position: absolute;
+  left: 20%;
+  top: 40%;
+}
+.item {
+  width: 80%;
+  height: 40%;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+.child{
+  padding: 10px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+}
+@media screen and (max-width: 1042px) and (min-width: 768px){
+.plus{
+  margin-bottom: 30px;
+  position: absolute;
+  left: 30%;
+  top: 8%;
+}
+
+.divc{
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+ 
+}
+.trip1{
+  width: 90%;
+  position: absolute;
+  left: 5%;
+  top: 10%;
+}
+.trip3{
+  width: 80%;
+    height: 40%;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+.item{
+  width: 75%;
+  height: 30%;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+}
+.blur{
+  filter: blur(2px);
+  height: 100%;
+  width: 100%;
+}
+}
+
+ 
